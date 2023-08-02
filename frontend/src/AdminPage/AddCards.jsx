@@ -53,7 +53,7 @@ const token = localStorage.getItem("adminToken")
         },
       };
 
-      axios.post("https://anxious-lamb-fez.cyclic.app/stocks/add", obj, config)
+      axios.post("https://trade24.onrender.com/stocks/add", obj, config)
     .then((res) => {
       getCreditCards();
       reset();

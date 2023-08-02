@@ -72,7 +72,7 @@ export default function OpenAccount() {
           // })
          
         }
-        const response = await axios.post("https://anxious-lamb-fez.cyclic.app/users/register", {
+        const response = await axios.post("https://trade24.onrender.com/users/register", {
           name,
           password,
           email,

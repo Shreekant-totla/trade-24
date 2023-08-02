@@ -68,7 +68,7 @@ function LogIn() {
       }
   
       try {
-        const response = await axios.post("https://anxious-lamb-fez.cyclic.app/users/login", userData)
+        const response = await axios.post("https://trade24.onrender.com/users/login", userData)
         const users = response.data;
   
         // console.log(response, users.token, users.name)

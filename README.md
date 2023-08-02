@@ -37,7 +37,7 @@
 <hr><ul>
 <ul>
     <li>Home Page</li></br>
-    <img src="./home page.png" alt="Home Page"></br></br>
+    <img src="/trade24homepage" alt="Home Page"></br></br>
     <li>Home Page Carousel</li></br>
     <img src="./home page carousel.png" alt="Home Page Carousel"></br></br>
     <li>Products Page</li></br>

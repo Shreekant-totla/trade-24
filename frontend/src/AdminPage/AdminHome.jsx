@@ -35,7 +35,7 @@ export const AdminHome = () => {
 
   function getUserData() {
     axios
-      .get("https://anxious-lamb-fez.cyclic.app/")
+      .get("https://trade24.onrender.com/")
       .then((res) => {
         setUserData(res.data);
       })
@@ -45,7 +45,7 @@ export const AdminHome = () => {
   }
 
   function getUserLoans(){
-    axios.get("https://anxious-lamb-fez.cyclic.app/users2")
+    axios.get("https://trade24.onrender.com/users2")
     .then((res)=>{
         setLoanData(res.data);
     })
@@ -54,7 +54,7 @@ export const AdminHome = () => {
   }
 
   function getCreditCards(){
-    axios.get("https://anxious-lamb-fez.cyclic.app/stocks")
+    axios.get("https://trade24.onrender.com/stocks")
     .then((res)=>{
         setCardData(res.data);
     })
@@ -80,13 +80,13 @@ export const AdminHome = () => {
       <Box mt="50px">
         <Tabs variant="soft-rounded" colorScheme="green">
           <TabList >
-            <Tab>Registered Users</Tab>
-            <Tab>Loans</Tab>
+            {/* <Tab>Registered Users</Tab>
+            <Tab>Loans</Tab> */}
             <Tab>Stocks</Tab>
             <Tab>Add Stocks</Tab>
           </TabList>
           <TabPanels>
-            <TabPanel>
+            {/* <TabPanel>
                <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>REGISTERED USERES OF TRADE24</Text>
               <Box className="userDisplayCard" >
             
@@ -130,15 +130,15 @@ export const AdminHome = () => {
                     </>
                 )
               }
-            </TabPanel>
+            </TabPanel> */}
             <TabPanel>
               {
                 cardData.length <= 0? (
-                  <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>NO CREDIT CARD YET</Text>
+                  <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>NO STOCKS YET</Text>
                   ) : (
                       <>
 
-                    <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>CREDIT CARDS OF USERS</Text>
+                    <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>STOCKS</Text>
 
                       <Box className="userDisplayCard">
 
@@ -157,7 +157,7 @@ export const AdminHome = () => {
               }
             </TabPanel>
             <TabPanel>
-            <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>ADD NEW CARD</Text>
+            <Text mb="50px" fontWeight={"bold"} fontSize={"22px"} textAlign={"center"}>ADD NEW STOCK</Text>
               <AddCards getCreditCards={getCreditCards}/>
             </TabPanel>
           </TabPanels>

@@ -15,7 +15,7 @@ export const CreditCardsDisplay = ({getCreditCards,_id,symbol,companyName,image,
       },
     };
   
-    axios.delete(`https://anxious-lamb-fez.cyclic.app/stocks/delete/${_id}`, config)
+    axios.delete(`https://trade24.onrender.com/stocks/delete/${_id}`, config)
       .then((res) => {
         getCreditCards();
         toast({

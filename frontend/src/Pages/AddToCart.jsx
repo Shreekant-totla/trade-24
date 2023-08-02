@@ -32,7 +32,7 @@ const AddToCart = () => {
         setTotalPrice(0)
     }
     const getAddToCart =  () => {
-        axios.get(`https://anxious-lamb-fez.cyclic.app/users/${localStorage.getItem("userID")}`)
+        axios.get(`https://trade24.onrender.com/users/${localStorage.getItem("userID")}`)
             .then((req) => {
               
                 setAddToCart(req.data.user.addToCart);

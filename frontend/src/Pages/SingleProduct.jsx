@@ -28,7 +28,7 @@ const SingleProduct = () => {
   const toast = useToast()
 
   const addItemInCart =(userId)=>{
-     axios.post(`https://anxious-lamb-fez.cyclic.app/users/addcart/${userId}`,stockDetails)
+     axios.post(`https://trade24.onrender.com/users/addcart/${userId}`,stockDetails)
      .then(()=>{
       toast({
         title: 'Stock added in cart successfully',

@@ -26,7 +26,7 @@ export const AdminLogin = () => {
             password
         }
         
-          axios.post("https://anxious-lamb-fez.cyclic.app/admin/login",postadmin)
+          axios.post("https://trade24.onrender.com/admin/login",postadmin)
         .then((res)=>{
 
             // let result = res?.data
