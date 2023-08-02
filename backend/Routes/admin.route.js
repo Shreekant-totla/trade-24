@@ -2,6 +2,7 @@ const express = require('express');
 const adminModel = require('../Model/admin.model');
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+require('dotenv').config()
 
 const adminRouter = express.Router();
 
