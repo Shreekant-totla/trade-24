@@ -37,17 +37,17 @@
 <hr><ul>
 <ul>
     <li>Home Page</li></br>
-    <img src="./trade24homepage" alt="Home Page"></br></br>
+    <img src="./frontend/public/Images/trade24homepage.png" alt="Home Page"></br></br>
     <li>Stocks Page</li></br>
-    <img src="./trade24stockspage.png" alt="Stocks Page"></br></br>
+    <img src="./frontend/public/Images/trade24stockspage.png" alt="Stocks Page"></br></br>
     <li>Single Stocks Page</li></br>
-    <img src="./trade24singlestockpage.png" alt="Single Stocks Page"></br></br>
+    <img src="./frontend/public/Images/trade24singlestockpage.png" alt="Single Stocks Page"></br></br>
     <li>Cart Page</li></br>
-    <img src="./trade24cartpage.png" alt="Cart Page"></br></br>
+    <img src="./frontend/public/Images/trade24cartpage.png" alt="Cart Page"></br></br>
     <li>Admin Stocks Page</li></br>
-    <img src="./trade24adminstock.png" alt="Admin Stocks Page"></br></br>
+    <img src="./frontend/public/Images/trade24adminstock.png" alt="Admin Stocks Page"></br></br>
     <li>Admin Add Stock Page</li></br>
-    <img src="./trade24adminaddstock.png" alt="Admin Add Stock Page"></br></br>
+    <img src="./frontend/public/Images/trade24adminaddstock.png" alt="Admin Add Stock Page"></br></br>
 </ul>
 </ul><h2>Project Status</h2>
 <hr><p>Completed</p><h2>Contact</h2>
